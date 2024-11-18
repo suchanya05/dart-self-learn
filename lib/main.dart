@@ -1,5 +1,5 @@
 // lib/main.dart
-import 'package:flutter/material.dart' ;
+import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'pages/info_page.dart';
 import 'pages/settings_page.dart';
@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
       title: 'Multi-Page App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: const Color.fromARGB(255, 137, 103, 158), // เปลี่ยนสีพื้นหลังทั้งแอป
+        scaffoldBackgroundColor: const Color.fromARGB(
+            255, 137, 103, 158), // เปลี่ยนสีพื้นหลังทั้งแอป
       ),
       initialRoute: '/', // กำหนดหน้าแรกเป็น Home Page
       routes: {
