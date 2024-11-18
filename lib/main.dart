@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'pages/info_page.dart';
-import 'pages/settings_page.dart';
+import 'pages/settings_page.dart'; 
 
 void main() {
   runApp(const MyApp());

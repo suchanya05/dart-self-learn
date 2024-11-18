@@ -118,7 +118,7 @@ class HomePage extends StatelessWidget {
                           // ตัวอย่างการนำทางไปยังหน้ารายละเอียด
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => ProductDetailPage()),
+                            MaterialPageRoute(builder: (context) => const ProductDetailPage()),
                           );
                         },
                         child: const Text('View Details'),
